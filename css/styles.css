@@ -1,5 +1,37 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
 #logo {
   width: 20%;
   margin: 3% 40%;
   display: flex;
   flex-direction: row; }
+
+.banner {
+  position: relative; }
+
+.bannerImg {
+  width: 100%;
+  z-index: -1; }
+  .bannerImg img {
+    width: 100%; }
+
+.title {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem; }
+  .title h1 {
+    font-size: 2.7rem;
+    margin: 0%; }
+  .title h1,
+  .title p {
+    font-weight: 300;
+    color: whitesmoke;
+    text-align: center; }
+  .title button {
+    width: 70%;
+    position: relative;
+    left: 15%; }
